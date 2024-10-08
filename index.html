@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
+  <title>HERO RANK</title>
+</head>
+<body>
+  <main class="main-container">
+    <section class="content">
+      <input id="hero-wins" type="number" min="0" title="Total de vitórias" placeholder="Insira o total de vitórias" required>
+      <input id="hero-loses" type="number" min="0" title="Total de derrotas" placeholder="Insira o total de derrotas" required>
+      <button id="add-hero-status">Adicionar nome</button>
+    </section>
+
+    <section>
+      <p>
+        O Herói tem o saldo de
+        <span id="hero-total-wins">...</span> está no nível de <span id="hero-level">...</span>
+      </p>
+    </section>
+  </main>
+</body>
+<script src="./index.js"></script>
+</html>
